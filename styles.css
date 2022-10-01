@@ -1,0 +1,135 @@
+.navbar1 {
+    background-color: #005826;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-link1 {
+    color: white !important;
+    font-size: 11px;
+}
+.nav-link1:focus {
+    color: white;
+}
+.nav-link2 {
+    color: #666666 !important;
+}
+.nav-link2:focus {
+    color: #666666;
+}
+.navbar-dark {
+    color: #FFFFFF !important;
+}
+.nav-item {
+    padding: 10px;
+}
+.nav-link {
+    letter-spacing: 1px;
+}
+.nav-link1:hover{
+    color: white;
+    background-color: #003F1A;
+}
+.search-btn {
+    width: 100px;
+    transition: width 2s;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+.search-btn:focus {
+    width: 200px;
+    transition: width 2s;
+}
+.margin {
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+.logo {
+    width: 18vw;
+}
+.navbar2 {
+    color: #E9E9E9;
+    background-color: #F4F4F4;
+}
+.nav-link2 {
+    color: #888888;
+    padding: 10px;
+}
+.nav-link2:hover {
+    color: initial;
+}
+.nav-item2 {
+    border: #E9E9E9 1px solid;
+}
+.navbar2-ul {
+    background-color: #F4F4F4;
+    color: #888888;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+.text-gray {
+    color: #888888 !important;
+}
+.section {
+    border: 1px solid #E9E9E9;
+}
+.bd-b {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.page-item {
+    border-radius: 0 !important;
+}
+.page-link{
+    background-color: #F4F4F4;
+}
+.page-link, .page-link:hover, .page-link:focus {
+    color: #666666;
+}
+.btn-gray {
+    background-color: #F4F4F4 !important;
+    color: #666666;
+}
+.head {
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F4F4F4;
+    color: #666666;
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    font-weight: normal;
+    font-size: 14px;
+}
+.list-arrow {
+    list-style: none;
+    cursor: pointer;
+    color: #555;
+}
+.list-arrow:hover {
+    background-color: #ddf0f9;
+}
+.list-arrow::before {
+    content: "\25BA";
+}
+footer{
+    background-color: #005826;
+}
+.fs-13 {
+    font-size: 13px !important;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+@media screen and (max-width: 1200px) {
+    .margin {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo{
+        width: 80%;
+    }
+}

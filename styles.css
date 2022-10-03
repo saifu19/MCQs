@@ -25,8 +25,9 @@
 }
 .nav-link {
     letter-spacing: 1px;
+    white-space: nowrap;
 }
-.nav-link1:hover{
+.nav-item1:hover{
     color: white;
     background-color: #003F1A;
 }
@@ -44,8 +45,8 @@
     margin-left: 13vw;
     margin-right: 13vw;
 }
-.logo {
-    width: 18vw;
+.logo1 {
+    width: 80%;
 }
 .navbar2 {
     color: #E9E9E9;
@@ -122,6 +123,20 @@ footer{
 .fs-14 {
     font-size: 14px !important;
 }
+.title {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #474747;
+}
+.about-text {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.8;
+}
+.logo-footer {
+    width: 18vw;
+}
 @media screen and (max-width: 1200px) {
     .margin {
         margin-left: 5vw;
@@ -129,7 +144,7 @@ footer{
     }
 }
 @media screen and (max-width: 767px) {
-    .logo{
+    .logo-footer {
         width: 80%;
     }
 }

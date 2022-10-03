@@ -4,6 +4,9 @@
 .navbar-toggler {
     border: none;
 }
+.toggler1:focus {
+    border: none;
+}
 .nav-link1 {
     color: white !important;
     font-size: 11px;
@@ -33,13 +36,13 @@
 }
 .search-btn {
     width: 100px;
-    transition: width 2s;
+    transition: width 500ms;
     padding-right: 0 !important;
     margin-right: 0 !important;
 }
 .search-btn:focus {
     width: 200px;
-    transition: width 2s;
+    transition: width 500ms;
 }
 .margin {
     margin-left: 13vw;
